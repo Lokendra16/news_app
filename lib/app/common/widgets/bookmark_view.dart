@@ -50,17 +50,6 @@ class BookmarkView extends StatelessWidget {
                       style: Theme.of(context).textTheme.titleLarge,
                     ),
                   ),
-                  SizedBox(
-                    height: 36,
-                    width: 36,
-                    child: DecoratedBox(
-                      decoration: BoxDecoration(
-                        color: Colors.grey,
-                        borderRadius: BorderRadius.circular(12)
-                      ),
-
-                        child: const Icon(Icons.bookmark)),
-                  ),
                 ],
               ),
             ),
